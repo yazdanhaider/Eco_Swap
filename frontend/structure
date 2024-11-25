@@ -1,0 +1,35 @@
+frontend/
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   ├── layout/
+│   │   │   ├── Navbar.js
+│   │   │   └── Footer.js
+│   │   ├── products/
+│   │   │   ├── ProductList.js
+│   │   │   ├── ProductCard.js
+│   │   │   └── ProductForm.js
+│   │   └── common/
+│   │       ├── Button.js
+│   │       └── Input.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Profile.js
+│   │   ├── ProductDetails.js
+│   │   └── Exchange.js
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── slices/
+│   │       ├── authSlice.js
+│   │       └── productSlice.js
+│   ├── utils/
+│   │   ├── api.js
+│   │   └── helpers.js
+│   ├── App.js
+│   └── index.js
+└── .env 

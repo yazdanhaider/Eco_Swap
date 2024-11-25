@@ -1,0 +1,22 @@
+backend/
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── authController.js
+│   ├── productController.js
+│   └── exchangeController.js
+├── middleware/
+│   ├── auth.js
+│   └── upload.js
+├── models/
+│   ├── User.js
+│   ├── Product.js
+│   └── Exchange.js
+├── routes/
+│   ├── auth.js
+│   ├── products.js
+│   └── exchanges.js
+├── utils/
+│   └── cloudinary.js
+├── .env
+└── server.js 
